@@ -101,27 +101,38 @@ with tab1:
     else:
         st.warning("No materials match your current filter criteria. Adjust the sliders in the sidebar.")
 
-# --- TAB 2: Manage Materials ---
+# --- TAB 2: Manage Materials (PASSWORD PROTECTED) ---
 with tab2:
     st.header("Database Editor")
-    st.markdown("""
-    Use the table below to **add, edit, or delete** materials. 
-    * **To Add:** Scroll to the bottom and type in the empty row.
-    * **To Delete:** Select the checkbox on the left of a row and press the `Delete` key on your keyboard.
-    * **To Edit:** Click any cell and type.
-    """)
+    
+    # 1. Ask for the password
+    entered_password = st.text_input("Enter Admin Password to edit database:", type="password")
+    
+    # 2. Check if the password matches the one saved in our secrets
+    if entered_password == st.secrets["admin_password"]:
+        st.success("Admin access granted!")
+        
+        st.markdown("""
+        Use the table below to **add, edit, or delete** materials. 
+        * **To Add:** Scroll to the bottom and type in the empty row.
+        * **To Delete:** Select the checkbox on the left of a row and press the `Delete` key.
+        * **To Edit:** Click any cell and type.
+        """)
 
-    # The dynamic data editor
-    edited_df = st.data_editor(
-        st.session_state.materials_df,
-        num_rows="dynamic",
-        use_container_width=True,
-        hide_index=True,
-        key="data_editor"
-    )
+        # The dynamic data editor
+        edited_df = st.data_editor(
+            st.session_state.materials_df,
+            num_rows="dynamic",
+            use_container_width=True,
+            hide_index=True,
+            key="data_editor"
+        )
 
-    # Save button
-    if st.button("Save Changes to Database", type="primary"):
-        st.session_state.materials_df = edited_df
-        save_data(edited_df)
-        st.success("Database successfully updated! Changes are saved to 'printiq_materials.csv'.")
+        # Save button
+        if st.button("Save Changes to Database", type="primary"):
+            st.session_state.materials_df = edited_df
+            save_data(edited_df)
+            st.success("Database successfully updated! Changes are saved to 'printiq_materials.csv'.")
+            
+    elif entered_password != "":
+        st.error("Incorrect password.")
