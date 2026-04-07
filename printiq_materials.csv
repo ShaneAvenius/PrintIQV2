@@ -1,0 +1,74 @@
+Material,HDT (°C),Tensile Strength (MPa),Tensile Modulus (GPa),Max Price/kg (USD),Chemical Resistance,Bed Temp (°C),Enclosure Temp (°C),Hotend Temp (°C),Ease of Printing,Other Info,UL94V0,Flexible,Crystallinity,Technology,Link
+PLA,80,56,3.46,25,fair,60,22,200,Easy,best starter material,no,false,Semicrystalline,FDM,https://www.3dxtech.com/product/ecomax-pla/
+ABS,95,42,2.34,25,fair,100,60,235,Moderate,bad fumes,no,false,Amorphous,FDM,https://www.3dxtech.com/product/3dxtech-abs/
+PETG,76,45,1.65,30,fair,70,22,240,easy,step up from PLA,no,false,Amorphous,FDM,https://www.3dxtech.com/product/max-g-petg/
+PEEK,182,100,3.72,588,very good,140,90,400,very hard,if you can use PEKK instead of PEEK use PEKK,yes,false,Semicrystalline,FDM,https://www.3dxtech.com/product/thermax-peek/
+PEKK A,150,105,2.75,695,very good,120,90,385,moderate,"Amorphous PEKK, easiest high temp material to print (60-40 copolymer)",yes,false,Amorphous,FDM,https://www.3dxtech.com/product/thermax-pekk-a/
+PSU,172,52,2.1,155,very good,140,90,370,hard,"pretty good mechanical, chemical, and thermal resistance",yes,false,Amorphous,FDM,https://www.3dxtech.com/product/thermax-psu/
+PPS,90,50,2.65,200,very good,110,70,310,moderate,insoluble in any solvent under 200c,yes,false,Semicrystalline,FDM,https://www.printedsolid.com/products/3dxtech-thermax-pps-1-75mm-500g-natural
+PPSU,190,55,2.31,250,very good,140,90,390,hard,a better but harder to print PSU,yes,false,Amorphous,FDM,https://www.3dxtech.com/product/thermax-ppsu/
+TPI,237,74,2.95,390,very good,180,220,450,very hard,very few printers can actually print this,yes,false,Amorphous,FDM,https://www.3dxtech.com/product/thermax-tpi-made-using-extem/
+ULTEM 1010,207,95,2.3,278,very good,140,90,410,hard,also known as PEI,yes,false,Amorphous,FDM,https://www.prusa3d.com/product/prusament-pei-1010-natural-500-g
+ULTEM 9085,158,54,2.05,220,good,120,90,375,hard,"ULTEM 1010 + PC, so less rigid",yes,false,Amorphous,FDM,https://www.3dxtech.com/product/thermax-pei-using-ultem-9085/
+PVDF,158,51,2.45,253,very good,90,22,260,hard,fumes are very bad,yes,false,Semicrystalline,FDM,https://www.3dxtech.com/product/fluorx-pvdf/
+PES,205,56,2.6,190,very good,140,90,380,hard,has very strong thermal properties,yes,false,Amorphous,FDM,https://www.3dxtech.com/product/thermax-pes/
+ASA,95,42,2.01,30,fair,100,60,240,Moderate,a better ABS,no,false,Amorphous,FDM,https://www.3dxtech.com/product/3dxmax-asa/
+PP,139,38,1.65,30,very good,60,22,230,Moderate,often used for living hinges,no,true,Semicrystalline,FDM,https://fiberlogy.com/en/fiberlogy-filaments/pp/
+CF PEEK-10,265,105,8.1,595,very good,130,90,400,hard,makes PEEK easier to print,yes,false,Semicrystalline,FDM,https://www.3dxtech.com/product/carbonx-peek-cf10/
+CF PEEK-20,320,126,10.1,750,very good,130,90,400,hard,makes PEEK easier to print,yes,false,Semicrystalline,FDM,https://www.3dxtech.com/product/carbonx-peek-cf20/
+CF PEKK,270,105,8.21,333,very good,120,70,385,moderate,use this instead of CF PEEK if you can,yes,false,Semicrystalline,FDM,https://www.3dxtech.com/product/carbonx-pekk-a-cf15/
+CF PEI 1010,205,145,7.7,450,very good,130,90,390,hard,"good at pretty much everything, but hard to print and expensive",yes,false,Amorphous,FDM,https://visionminer.com/products/carbonx-cf-pei
+CF PEI 9085,165,93,8.6,395,good,130,90,385,hard,"a worse version of CF PEI 1010, but useful if you need FST",yes,false,Amorphous,FDM,https://www.3dxtech.com/product/carbonx-peicf15-made-using-ultem-9085/
+CF PPS,220,63,7.46,180,very good,110,70,310,moderate,makes PPS significantly more rigid,yes,false,Semicrystalline,FDM,https://shop.essentium.com/products/essentium-pps-cf-1-75mm
+HIPS,80,40,1.35,32,fair,100,22,240,Moderate,sometimes used as dissolvable supports,no,false,Amorphous,FDM,https://www.3dxtech.com/product/3dxmax-hips/
+CF PP,124,62,6.15,60,very good,60,22,240,Moderate,makes Polypropylene significantly more rigid,no,false,Semicrystalline,FDM,https://www.3dxtech.com/product/carbonx-pp-cf-polypropylene/
+CF PC,135,70,6.2,114,good,110,70,280,Moderate,very good all around engineering material,no,false,Amorphous,FDM,https://www.3dxtech.com/product/carbonx-pc-cf/
+PC,135,62,2.41,90,good,110,70,280,hard,pure PC can be quite hard to print on consumer machines,no,false,Amorphous,FDM,https://www.3dxtech.com/product/3dxmax-pc-polycarbonate/
+PC Blend,112,58,2.18,55,good,90,22,260,Moderate,"PC, blended with other polymers to make it easier to print",no,false,Amorphous,FDM,https://www.3dxtech.com/product/ezpc/
+PVA,53,22,1.73,75,not good,60,22,230,easy,used for water dissolvable supports,no,false,Semicrystalline,FDM,https://www.3dxtech.com/product/aquatek-pva-water-soluble-support/
+PPE/PS,112,67,2.25,104,Good,90,50,310,Moderate,a copolymer of polyphenylene ether and polystyrene,yes,false,Amorphous,FDM,https://www.3dxtech.com/product/thermax-ppe-ps/
+Nylon/PA,82,49,2.18,40,Good,90,50,260,Moderate,"somewhat flexible, can be made almost indestructable",no,false,Semicrystalline,FDM,https://shop.essentium.com/products/essentium-pa-nylon-1-75mm
+CF PET,205,71,9.38,100,Good,80,50,270,Moderate,"semi-crystalline version of PETG, with CF",no,false,Semicrystalline,FDM,https://shop.essentium.com/products/essentium-xion-pro-1-75mm
+PEKK SC,182,105,3.2,666,very good,130,90,390,Moderate,semi-crystalline PEKK (70-30 copolymer),yes,false,Semicrystalline,FDM,https://www.3d4makers.com/products/luvocom-3f-pekk-50082-filament
+Essentium HTN,110,77,3.18,127,good,80,40,285,Moderate,also known as High temperature Nylon,no,false,Semicrystalline,FDM,https://shop.essentium.com/products/essentium-htn-1-75mm
+Essentium HTN CF25,219,148,16.0,233,good,80,40,285,Moderate,"one of if not the strongest 3d printing materials, but a bit brittle",no,false,Semicrystalline,FDM,https://shop.essentium.com/products/essentium-htn-cf25-1-75mm
+CF PPA,240,87,8.2,233,good,130,40,290,Moderate,very good all around material,no,false,Semicrystalline,FDM,https://www.3dxtech.com/products/carbonx-htn-cf-1
+Ultem 1000,208,105,2.5,210,very good,140,90,380,hard,not sure what the difference between this and ULTEM 1010 is,yes,false,Amorphous,FDM,https://www.3d4makers.com/products/pei-ultem-1000-filament
+POM/Delrin,155,63,3.0,27,good,100,70,220,very hard,this really should not be printed,no,false,Semicrystalline,FDM,https://gizmodorks.com/acetal-3d-printer-filament/
+Essentium Duratem,145,40,0.465,233,very good,140,90,370,hard,the only flexible high temp material,yes,true,Amorphous,FDM,https://shop.essentium.com/products/essentium-duratem-1-75mm
+Essentium Altitude,120,58,3.74,110,good,80,50,270,Moderate,designed for use in planes and other aerospace applications,yes,false,Amorphous,FDM,https://shop.essentium.com/products/essentium-altitude-1-75mm
+GF ULTEM 1010,212,145,8.79,350,very good,130,90,390,hard,one of the strongest printable polymers,yes,false,Amorphous,FDM,https://www.3dxtech.com/product/fibrex-pei-gf30-using-ultem/
+PI,175,89,2.73,1330,very good,120,90,400,very hard,3D-printable Kapton tape material,yes,false,Amorphous,FDM,https://www.3d4makers.com/products/pi-filament-z2
+CF PA6,147,63,3.8,80,good,70,22,260,Moderate,"a very good generic strong material, more hydroscopic than PA12",no,false,Semicrystalline,FDM,https://www.3dxtech.com/product/carbonx-pa6-cf/
+GF PA6,186,63,4.261,69,good,70,22,260,Moderate,"a very good generic strong material, more hydroscopic than PA12",no,false,Semicrystalline,FDM,https://www.3dxtech.com/products/fibrex-nylon-6-gf-1
+GF PA12,150,82,7.8,130,good,110,22,285,Moderate,"a very good generic strong material, less hydroscopic than PA6",no,false,Semicrystalline,FDM,https://www.3dxtech.com/products/fibrex-nylon-12-gf30-1?variant=43809001078837
+CF PA12,150,72,8.0,174,good,110,22,285,Moderate,"a very good generic strong material, less hydroscopic than PA6",no,false,Semicrystalline,FDM,https://www.3dxtech.com/products/carbonx-nylon-12-cf-1?variant=43779588915253
+CF PA11,192,42,2.5,125,good,110,22,285,Moderate,"a decently good generic strong material, less hydroscopic than PA6",no,false,Semicrystalline,FDM,https://www.prusa3d.com/product/prusament-pa11-carbon-fiber-black-800g-4/
+Bambu CF PPA,227,168,9.86,200,good,100,50,280,Moderate,an impresively strong and rigid high temp nylon,no,false,Semicrystalline,FDM,https://store.bambulab.com/products/ppa-cf
+Bambu PAHT CF,194,92,3.86,95,good,80,45,260,Moderate,a very strong and rigid high temp nylon,no,false,Semicrystalline,FDM,https://us.store.bambulab.com/products/paht-cf?variant=41009450483848
+PCTG,76,45,1.81,50,fair,70,22,240,easy,can create parts with almost isotropic strength,no,false,Amorphous,FDM,https://shop.essentium.com/collections/1-75mm-filament-all/products/essentium-pctg-1-75mm
+CF PLA,91,48,4.95,64,fair,60,22,210,easy,kind of a gimmick,no,false,Semicrystalline,FDM,https://www.3dxtech.com/product/carbonx-pla-cf/
+CF ABS,76,35,5.21,64,fair,100,50,240,Moderate,decent engineering material,no,false,Amorphous,FDM,https://www.3dxtech.com/product/carbonx-abs-cf/
+GF ABS,99,36,3.16,30,fair,80,45,240,Moderate,decent engineering material,no,false,Amorphous,FDM,https://us.store.bambulab.com/products/abs-gf
+CF ASA,110,34,4.2,37,fair,80,45,250,Moderate,"decent engineering material, good UV resistance",no,false,Amorphous,FDM,https://us.store.bambulab.com/products/asa-cf
+CF PETG,77,56,5.23,64,fair,70,22,240,easy,good for parts that need to be somewhat rigid,no,false,Amorphous,FDM,https://www.3dxtech.com/product/carbonx-petg-cf/
+TPU,49,55,0.0078,30,good,40,22,230,moderate,most common flexible material,no,true,Amorphous,FDM,https://www.3dxtech.com/product/3dxflex-tpu-95a/
+PEBA,66,66,0.0328,120,good,70,22,210,moderate,another flexible material,no,true,Semicrystalline,FDM,https://shop3duniverse.com/products/kimya-peba-s-1-75mm-500g-transluscent#v45605424365888
+LW-PLA,50,35,3.333,35,fair,40,22,230,easy,often used to make RC planes,no,false,Semicrystalline,FDM,https://colorfabb.us/lw-pla-natural
+LW-TPU,49,24,0.05,68,fair,40,22,230,easy,by changing the temperature,no,true,Amorphous,FDM,https://colorfabb.us/varioshore-tpu-black
+SEBS,35,11,0.083,60,fair,50,22,250,easy,"an alternative to TPU, also a TPE",no,true,Semicrystalline,FDM,https://recreus.com/gb/filaments/20-filaflex-sebs.html
+PCL,57,45,0.35,156,not good,30,22,130,moderate,often used in the medical field for implants because of its biocompatibility,no,false,Semicrystalline,FDM,https://www.3d4makers.com/products/facilan-pcl-100-filament
+PET,63,33,1.933,37,good,70,22,210,easy,"same as PETG, but a little harder to print, and semicrystalline",no,false,Semicrystalline,FDM,https://www.matterhackers.com/store/c/taulman-t-glase
+PVB,63,50,1.7,50,fair,75,22,215,easy,can be vapor smoothed using IPA,no,false,Amorphous,FDM,https://prusament.com/materials/prusament-pvb/
+PMMA,106,46,2.5,50,good,100,22,230,moderate,very transparent,no,false,Amorphous,FDM,https://formfutura.com/c/filaments/pmma/
+Tullomer LCP,180,250,25,500,very good,120,65,300,hard,"This is a liquid crystal polymer filament, and must be printed fast",yes,false,Crystalline,FDM,https://www.dynamism.com/material/material-brands/z-polymers/z-polymers-tullomer-1kg.html
+Markforged Onyx,145,37,2.4,198,good,22,22,285,easy,kind of overpriced for what it is,no,false,Semicrystalline,FDM,
+Markforged Nylon,41,36,1.7,193,good,22,22,285,easy,kind of overpriced for what it is,no,false,Semicrystalline,FDM,
+BASF Ultrafuse 17-4 PH Stainless Steel,316,990,191.0,130,very good,100,40,240,moderate,"you get real stainless steel parts after sending your green parts to a debinding and sintering facility (also, steel is dense)",yes,false,Crystalline,FDM,https://www.matterhackers.com/store/l/basf-ultrafuse-17-4-ph-metal-3d-printing-filament/sk/M8H26VSM
+Formlabs PA11 CF,188,69,5.3,167,good,N/A,N/A,N/A,easy,pretty good rigid engineering material,false,false,Semicrystalline,SLS,https://formlabs.com/store/materials/nylon-11-cf-powder/
+Formlabs Rigid 10K resin,163,65,10,299,good,N/A,N/A,N/A,easy,pretty rigid engineering resin,false,false,Amorphous,SLA,https://formlabs.com/store/materials/rigid-10k-resin/
+Formlabs Clear resin,56,51,2.575,79,good,N/A,N/A,N/A,easy,pretty good basic resin,false,false,Amorphous,SLA,https://formlabs.com/store/materials/clear-resin/
+Formlabs PA12,177,47,1.95,110,good,N/A,N/A,N/A,easy,pretty good basic material,false,false,Semicrystalline,SLS,https://formlabs.com/store/materials/nylon-12-white-powder/
+Formlabs High Temp Resin,120,58,2.8,199,good,N/A,N/A,N/A,easy,can have a HDT up to 238 if thermally cured,false,false,Amorphous,SLA,https://formlabs.com/store/materials/high-temp-resin/
+Formlabs Durable Resin,41,28,1,149,good,N/A,N/A,N/A,easy,very good impact resistance,false,false,Amorphous,SLA,https://formlabs.com/store/materials/durable-resin/
+Formlabs PA11 GF,170,38,2.8,108,good,N/A,N/A,N/A,easy,pretty good rigid engineering material,false,false,Semicrystalline,SLS,https://formlabs.com/store/materials/nylon-12-gf-powder/
